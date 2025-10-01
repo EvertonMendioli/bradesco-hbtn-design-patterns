@@ -1,0 +1,6 @@
+A Arquitetura Hexagonal, também chamada de Ports and Adapters, foi criada por Alistair Cockburn. Ela faz uma separação  entre as regras de negócio e os mecanismos externos(banco de dados e APIs).
+Facilita testes e manutenção, facilidade de substituição de tecnologias, permite testar o núcleo sem depender de infraestrutura externa e melhora a clareza do código.
+Clean Architecture é mais formal e estruturada, enquanto Hexagonal é mais flexível e pragmática.
+Arquitetura Hexagonal pode ser utilizada em qualquer tipo de projeto, mas com ressalvas. Ela é ideal para sistemas com lógica de negócio complexa ou múltiplas interfaces (ex: APIs, UI, CLI). Porém, para projetos simples ou de curta duração, pode ser exagerada.
+As informações que devem ser consideradas antes de desenvolver sistemas usando esse padrão de projeto: 
+Complexidade do domínio, Equipe familiarizada com o padrão, Necessidade de testes automatizados robustos e Escalabilidade e manutenção futura.
